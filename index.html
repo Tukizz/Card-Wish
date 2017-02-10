@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Happy Card</title>
+
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/icon.css">
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+	<div id="skrollr-body">
+		<div id="preloader"></div>
+		<div id="wish1" class="centered" data-0="width:100%;" data-1000="width:0%;"></div>
+		<div id="wish2" class="centered " data-1000="width:100%;" data-2000="width:0%;">
+			<div id="snow" class="centered" data-1000="top:0px;" data-2000="top:100px"></div>
+		</div>
+		<div id="ribbon-left" class="ribbon" data-1500="width:0%;" data-2500="width:50%;" ></div>
+		<div id="ribbon-right" class="ribbon" data-1500="width:0%;" data-2500="width:50%;" ></div>
+
+		<svg version="1.1" width="337px" height="200px" >
+			<path class="" style="fill:none;stroke:#49675f;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:500;stroke-dashoffset:0" data-2500="stroke-dashoffset:500;" data-4000="stroke-dashoffset:0;" d="M169,174C123,169-17.5,87.5,36,34S169,174,169,174z" />
+			<path class="" style="fill:none;stroke:#49675f;stroke-width:40; stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:500;stroke-dashoffset:0" data-2500="stroke-dashoffset:500;" data-4000="stroke-dashoffset:0;" 	d="	M169,174c46-5,186.5-86.5,133-140S169,174,169,174z"/>
+		</svg>
+
+		<div id="pattern1" class="centered " data-2500=" height:100%; "data-3500="height:0%;"></div>
+		<div id="pattern2" class="centered"></div>
+		<div id="wish3" class="centered" data-4000="width:0px; height:0px;  "data-6000="width:550px; height:550px; ">
+
+		<a class="waves-effect waves-light btn-large" href="hal2.html"><i class="material-icons left">play_arrow</i>Click Here For More!</a>
+
+
+		</div>
+		<div id="info" class="left "  data-900="box-shadow:inset 0px 0 0 #e7685d,inset 0px 0 0  #e7685d" data-1000="box-shadow:inset 100px 0 0 #e7685d, inset -100px 0 0 #e7685d" data-1830="width:150px;" data-2000="width:0;">Scroll Down !</div>
+		<div id="copyright">Copyright <a href="https://www.instagram.com/frama21_/"> Frama21_</a></div>
+	</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script src="js/skrollr.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	 window.onload = function() {
+		document.getElementById("preloader").style.display = 'none';
+		skrollr.init({
+		forceHeight: false
+	});
+	}
+	</script>
+</body>
+
+</html>

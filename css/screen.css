@@ -1,0 +1,18 @@
+html, body {padding:0;margin:0; font-family:calibri; color:#4a443d; text-align:center;}
+a {color:#4a443d; text-decoration:none}
+body {overflow:auto; height:7600px; }
+#skrollr-body {width:100%; height:100%; position:fixed; }
+#skrollr-body  div {overflow:hidden; position:absolute; }
+.centered { top:0; bottom:0; left:0; right:0; margin:auto; }
+#wish1 {background: #726c66 url('../img/wish.png') center center no-repeat ; z-index:5;}
+#wish2 {background: #EC9D9D url('../img/card2.png') center bottom no-repeat ; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
+#snow {width:363px; background:url('../img/pop.png') no-repeat}
+#pattern1 { background:url('../img/bungkus1.png') ; z-index:2; background-attachment:fixed}
+.ribbon {background:#49675f; height:40px; top:50%; margin-top:-20px; z-index:3;   }
+#ribbon-left {left:0}
+#ribbon-right {right:0}
+svg {position:absolute; z-index:5; left:50%;  top:50%; margin-left:-170px; margin-top:-180px}
+#pattern2 { background:url('../img/pattern.png'); z-index:1;}
+#wish3 {background:#8dbaae url('../img/.png') no-repeat center center; z-index:6; border-radius:50%;}
+#info {background:#fff; width:20%; height:50px; bottom:auto; z-index:10; font-size:22px;  line-height:50px;}
+#copyright { font-style:arial; font-color: #ad14ff; font-size:12px;  z-index:10;bottom:10px; width:100%;}
